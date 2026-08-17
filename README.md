@@ -47,7 +47,7 @@ Git
 GitHub
 Nodemon
 
-📂 Project Structure
+📂 Project Structure:
 blog_paltform/
 │
 ├── frontend/
