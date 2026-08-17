@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Blog Details - BlogSphere</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+
+    <header>
+        <nav class="navbar">
+
+            <div class="logo">
+                BlogSphere
+            </div>
+
+            <ul class="nav-links">
+
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+
+                <li>
+                    <a href="blog.html">My Blogs</a>
+                </li>
+
+                <li>
+                    <a href="dashboard.html">Dashboard</a>
+                </li>
+
+            </ul>
+
+        </nav>
+    </header>
+
+
+    <!-- Blog Details -->
+
+    <main class="blog-details-page">
+
+        <article id="blogDetails">
+
+            <p>Loading blog...</p>
+
+        </article>
+
+
+        <!-- Comments Section -->
+
+        <section class="comments-section">
+
+            <h2>Comments</h2>
+
+
+            <!-- Add Comment -->
+
+            <form id="commentForm">
+
+                <textarea
+                    id="commentInput"
+                    placeholder="Write your comment..."
+                    rows="5"
+                    required
+                ></textarea>
+
+
+                <button type="submit">
+                    Add Comment
+                </button>
+
+            </form>
+
+
+            <!-- Comments List -->
+
+            <div id="commentsList">
+
+                <p>Loading comments...</p>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- Footer -->
+
+    <footer>
+
+        <p>
+            © 2026 BlogSphere. All rights reserved.
+        </p>
+
+    </footer>
+
+
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>

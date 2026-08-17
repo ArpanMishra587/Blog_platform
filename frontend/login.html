@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Login - BlogSphere</title>
+
+    <link rel="stylesheet" href="login.css">
+</head>
+
+<body>
+
+    <!-- Login Page -->
+    <main class="auth-page">
+
+        <div class="auth-container">
+
+            <div class="auth-header">
+                <h1>Welcome Back</h1>
+                <p>Login to continue to BlogSphere</p>
+            </div>
+
+            <form id="loginForm">
+
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input
+                        type="email"
+                        id="email"
+                        placeholder="Enter your email"
+                        required
+                    >
+                </div>
+
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input
+                        type="password"
+                        id="password"
+                        placeholder="Enter your password"
+                        required
+                    >
+                </div>
+
+                <div class="form-options">
+                    <label>
+                        <input type="checkbox">
+                        Remember me
+                    </label>
+
+                    <a href="#">Forgot Password?</a>
+                </div>
+
+                <button type="submit" class="login-btn">
+                    Login
+                </button>
+
+            </form>
+
+            <div class="auth-footer">
+                <p>
+                    Don't have an account?
+                    <a href="registration.html">Create Account</a>
+                </p>
+            </div>
+
+            <div class="back-home">
+                <a href="index.html">← Back to Home</a>
+            </div>
+
+        </div>
+
+    </main>
+
+    <script src="js/main.js"></script>
+
+</body>
+</html>

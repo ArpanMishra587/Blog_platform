@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Dashboard - BlogSphere</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar">
+
+            <div class="logo">
+                BlogSphere
+            </div>
+
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <a href="blog.html">My Blogs</a>
+                <li><a href="blog-create.html">Create Blog</a></li>
+                <li>
+                    <button id="logoutBtn" class="logout-btn">
+                        Logout
+                    </button>
+                </li>
+            </ul>
+
+        </nav>
+    </header>
+
+
+    <main class="dashboard-page">
+
+        <div class="dashboard-container">
+
+            <div class="dashboard-header">
+
+                <div>
+                    <h1>Dashboard</h1>
+                    <p id="welcomeUser">
+                        Welcome back!
+                    </p>
+                </div>
+
+                <a href="blog-create.html" class="primary-btn">
+                    + Create Blog
+                </a>
+
+            </div>
+
+
+            <!-- Statistics -->
+
+            <div class="dashboard-stats">
+
+                <div class="stat-card">
+                    <h3 id="totalBlogs">0</h3>
+                    <p>Total Blogs</p>
+                </div>
+
+                <div class="stat-card">
+                    <h3 id="publishedBlogs">0</h3>
+                    <p>Published</p>
+                </div>
+
+                <div class="stat-card">
+                    <h3 id="draftBlogs">0</h3>
+                    <p>Drafts</p>
+                </div>
+
+            </div>
+
+
+            <!-- My Blogs -->
+
+            <section class="my-blogs">
+
+                <div class="section-heading">
+
+                    <h2>My Blogs</h2>
+
+                    <a href="blog-create.html">
+                        Create New
+                    </a>
+
+                </div>
+
+
+                <div id="myBlogsList">
+
+                    <div class="empty-state">
+
+                        <h3>No blogs yet</h3>
+
+                        <p>
+                            You haven't created any blog posts yet.
+                        </p>
+
+                        <a
+                            href="blog-create.html"
+                            class="primary-btn">
+                            Write Your First Blog
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+        </div>
+
+    </main>
+
+
+    <footer>
+        <p>© 2026 BlogSphere. All rights reserved.</p>
+    </footer>
+
+
+    <script src="js/main.js"></script>
+
+</body>
+</html>

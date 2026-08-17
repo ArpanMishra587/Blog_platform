@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Blog - BlogSphere</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar">
+            <div class="logo">BlogSphere</div>
+
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="blogs.html">Blogs</a></li>
+                <li><a href="dashboard.html">Dashboard</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="dashboard-page">
+
+        <div class="dashboard-container">
+
+            <h1>Edit Blog</h1>
+
+            <form id="editBlogForm">
+
+                <input
+                    type="text"
+                    id="editTitle"
+                    placeholder="Blog Title"
+                    required
+                >
+
+                <select id="editCategory" required>
+                    <option value="">Select Category</option>
+                    <option value="Technology">Technology</option>
+                    <option value="Programming">Programming</option>
+                    <option value="AI">AI</option>
+                    <option value="Lifestyle">Lifestyle</option>
+                </select>
+
+                <input
+                    type="text"
+                    id="editImage"
+                    placeholder="Image URL"
+                >
+
+                <textarea
+                    id="editContent"
+                    rows="12"
+                    placeholder="Write your blog..."
+                    required
+                ></textarea>
+
+                <input
+                    type="text"
+                    id="editTags"
+                    placeholder="javascript,nodejs,mongodb"
+                >
+
+                <select id="editStatus">
+                    <option value="published">Published</option>
+                    <option value="draft">Draft</option>
+                </select>
+
+                <button type="submit">
+                    Update Blog
+                </button>
+
+            </form>
+
+        </div>
+
+    </main>
+
+    <script src="js/main.js"></script>
+
+</body>
+</html>
